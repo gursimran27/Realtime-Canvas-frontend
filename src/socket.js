@@ -1,5 +1,5 @@
 import { io } from "socket.io-client";
-const URL = process.env.NODE_ENV === 'production' ? 'https://jscafe-sketchbook-server.onrender.com' : 'http://localhost:5000'
+const URL = process.env.NODE_ENV === 'production' ? 'https://realtime-canvas-backend-gsingh.onrender.com' : 'http://localhost:5000'
 
 
 let socket;
